@@ -40,8 +40,8 @@ time = "Flamengo";
 console.log(time)
 
 //variaveis sem valor
- var rua;
- var cidade;
- var estado;
- var pais;
- var bairro;
+ var rua,
+     cidade,
+     estado,
+     pais,
+     bairro;

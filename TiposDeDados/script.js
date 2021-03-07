@@ -22,3 +22,20 @@ var gols = 1000;
 var frase = `Romario fez ${gols} gols`; // colocando o ascento ao contrário eu consigo passar uma expressão
 console.log(frase);
 
+//Exercicios
+
+var nomeEsposa = "Maryane";
+console.log(typeof nomeEsposa);
+
+var idadeEsposa = "23";
+
+var idadeLuccas = 27;
+
+var meuNome = "Luccas";
+var meuSobrenome = "Mesquita";
+console.log(`${meuNome} ${meuSobrenome}`);
+
+var frase2 = "It`s time";
+console.log(frase2)
+
+console.log(typeof meuNome);

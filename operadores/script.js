@@ -27,6 +27,3 @@ var total3 = 20 / 2 * 5; // 50
 var num = 'teste' / 2;
 var num2 = 'teste' - 4;
 console.log(tot);
-
-
-

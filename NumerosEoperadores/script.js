@@ -13,3 +13,11 @@ var multiplicacao = 2 * 2; //4
 var divisao = 10 / 2 ; //5
 var expoente = 2 ** 4 // 16
 var modulo = 14 % 5; //4
+
+/* a ordem importa
+Começa sempre por multiplicação e divisão, depois por soma e subtração
+*/
+
+var total1 = 20 + 5 * 2; // total 30 pois primeiro ele multiplica e depois soma
+var total2 = (20 + 5) * 2; // 50 priorizar a expressão usando ()
+var total3 = 20 / 2 * 5; // 50 

@@ -20,4 +20,13 @@ Começa sempre por multiplicação e divisão, depois por soma e subtração
 
 var total1 = 20 + 5 * 2; // total 30 pois primeiro ele multiplica e depois soma
 var total2 = (20 + 5) * 2; // 50 priorizar a expressão usando ()
-var total3 = 20 / 2 * 5; // 50 
+var total3 = 20 / 2 * 5; // 50
+
+//Exercicios 
+
+var num = 'teste' / 2;
+var num2 = 'teste' - 4;
+console.log(tot);
+
+
+

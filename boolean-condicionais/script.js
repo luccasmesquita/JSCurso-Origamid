@@ -67,3 +67,26 @@ switch (CorFavorita) {
     default:
         console.log('Feche os olhos');    
 }
+
+//Exercicios :
+
+var idadeLuccas = 27;
+var idadeParente = 23;
+
+if ( idadeLuccas > idadeParente) {
+    console.log('é maior')
+}else if (idadeLuccas === idadeParente){
+    console.log('é igual')
+} else {
+    console.log('é menor')
+} 
+
+
+var brasil = 207;
+var china = 1340;
+
+if (brasil > china) {
+    console.log('Brasil tem mais habitantes')
+}else {
+    console.log('Brasil tem menos habitantes');
+}

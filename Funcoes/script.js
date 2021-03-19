@@ -104,3 +104,9 @@ console.log(dados());
 /* Hoisting
 Antes de executar uma função, o JS 'move' todas as funções declaradas para a memoria
 */
+imc2 = (80, 1.90); //imc aparece no console pois tudo "sobe"
+
+function imc2 (peso, altura) {
+    const imc2 = peso / (altura**2);
+    console.log(imc2)
+}

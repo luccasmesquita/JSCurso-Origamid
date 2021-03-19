@@ -50,3 +50,57 @@ dela vai acontecer
  escritas como 
  function() {}  OU  () => {} 
  */ 
+
+/*
+Uma função pode ou não retornar um valor
+quando não definimos um return, ela irá retornar undefined. O código 
+interno da função é executado normalmente, independente se existir valor de return ou não
+*/
+
+/* Valores retornados 
+uma função pode retornar qualquer tipo de dado e até outras funções
+mas cuidado, retornar diferentes tipos de dados na mesma função não é uma boa ideia.
+*/
+function terceiraIdade(idade) {
+    if(typeof idade !== 'number'){
+        return 'Informe sua idade';
+    } else if (idade >= 60) {
+        return true;
+    } else {
+        return false
+    }
+}
+
+console.log(terceiraIdade(27))
+
+/* Escopo 
+Variaveis e funções definidas dentro de um bloco {} não são visiveis fora dele.
+*/
+function precisoVisitar(paisesVisitados) {
+    var totalPaises = 193;
+    return `Ainda faltam ${totalPaises - paisesVisitados} paises para visitar`
+}
+console.log(precisoVisitar(3));
+
+/*
+Escopo Léxico 
+funções sempre conseguem acessar váriaveis que foram criadas no contexto pai
+*/
+
+var profissao = "Developer";
+
+function dados() {
+    var nome = "Luccas";
+    var idade = 27;
+    function outrosDados() {
+        var endereco = "Germany";
+        var estudando = "Front-end, Ux e Ui design";
+        return `${nome}, ${idade},${endereco}, ${profissao}, ${estudando} `
+    }
+    return outrosDados();
+}
+console.log(dados());
+
+/* Hoisting
+Antes de executar uma função, o JS 'move' todas as funções declaradas para a memoria
+*/

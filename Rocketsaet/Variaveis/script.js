@@ -16,4 +16,24 @@ clima = "Frio"; // com var e let eu posso alterar o valor durante a aplicação
 
 console.log(clima);
 
-const idade = 27; // a variavel criada com const vai ser um valor constante então, não pode ser alterado
+const idade = 27; // a variavel criad
+
+/**
+ * Js é uma linguagem fracamente tipada e dinamica
+ * Variaveis não precisam ter um tipo preciamente definidos
+ * Podemos mudar o conteudo da variavel
+ */
+
+/**
+ * Scope
+ * 
+ * O scope determina a visibilidade de aluma variavel no Js
+ * 
+ * O var é global e tambem local, ou seja, pode funcionar dentro e fora do escopo 
+ */
+console.log(x); //podemos acessar a variavel "x" fora do escopo
+
+{
+    var x = 0;
+}
+console.log(x)
